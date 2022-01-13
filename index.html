@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de ingreso</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <section class="header">
+        <h2>Formulario de ingreso</h2>
+    </section>
+    <div class="container">
+        <section class="ingreso">
+            <form>
+                <div class="section-flex-form">
+                    <article class="element-form">
+                        <div class="label">
+                            <label for="">Genero</label>
+                        </div>
+                        <select name="genero" id="genero">                            
+                            <option value="0">Masculino</option>
+                            <option value="1">Femenino</option>
+                        </select>
+                    </article>
+                    <br>
+                    <article class="element-form">
+                        <div class="element-form">
+                            <div class="label">
+                                <label for="">Nombre</label>
+                            </div>
+                            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre y apellido">
+                        </div>
+                    </article>
+                    <br>
+                    <article class="element-form">
+
+                        <div class="label">
+                            <label for="">Edad</label>
+                        </div>
+                        <input type="text" name="edad" id="edad" placeholder="Escribe tu edad en numero">
+
+                    </article>
+                    <br>
+                    <article class="btn-article">
+                        <button type="submit" onclick="validar()"> Enviar Datos</button>
+                    </article>
+                    
+                </div>
+            </form>
+        </section>
+
+       <br>
+
+    </div>
+        
+        <script src="/Javascript/JavaScript.js"></script>
+
+</body>
+</html>
